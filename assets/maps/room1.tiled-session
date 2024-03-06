@@ -1,0 +1,53 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "room1.tmx",
+    "expandedProjectPaths": [
+        "tiles",
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "room1.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 87,
+                "y": 70.625
+            }
+        },
+        "tiles/Fences.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 16
+        },
+        "tiles/Grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        }
+    },
+    "last.exportedFilePath": "C:/Users/capeh/Desktop/Utility/dungeoncrawler/assets/maps",
+    "last.imagePath": "C:/Users/capeh/Desktop/Utility/dungeoncrawler/assets/maps/tiles/tilesrc",
+    "map.height": 10,
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 10,
+    "openFiles": [
+        "room1.tmx"
+    ],
+    "project": "room1.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "room1.tmx",
+        "tiles/Fences.tsx",
+        "tiles/Grass.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

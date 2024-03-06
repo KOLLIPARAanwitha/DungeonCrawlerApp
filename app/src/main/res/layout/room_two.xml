@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room_two"
+    android:scaleType="centerCrop">
+
+        <Button
+            android:id="@+id/roomThreeButton"
+            android:layout_width="217dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+
+            android:text="Click for Room 3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scoreLabelRoom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="494dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <TextView
+            android:id="@+id/difficultyTextRoomTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="494dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <TextView
+            android:id="@+id/nameTextRoomTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="17dp" />
+
+        <TextView
+            android:id="@+id/healthTextRoomTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="57dp" />
+
+        <ImageView
+            android:id="@+id/playerImageRoomTwo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/lime_sprite"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

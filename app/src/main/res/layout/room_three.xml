@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/room_three">
+
+        <Button
+            android:id="@+id/endButton"
+            android:layout_width="217dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="Click to end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/scoreLabelRoom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            tools:layout_editor_absoluteX="524dp"
+            tools:layout_editor_absoluteY="18dp" />
+
+        <TextView
+            android:id="@+id/difficultyTextRoomThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="diff"
+            tools:layout_editor_absoluteX="520dp"
+            tools:layout_editor_absoluteY="57dp" />
+
+        <TextView
+            android:id="@+id/nameTextRoomThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+        <TextView
+            android:id="@+id/healthTextRoomThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="health"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+        <ImageView
+            android:id="@+id/playerImageRoomThree"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/lime_sprite"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <!--        android:layout_marginStart="257dp"-->
+<!--        android:layout_marginTop="326dp"-->
+<!--        android:layout_marginEnd="257dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+        <!--        <Button-->
+<!--            android:id="@+id/endButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_weight="1"-->
+<!--            android:fontFamily="@font/courier_prime"-->
+<!--            android:text="Click to finish game" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

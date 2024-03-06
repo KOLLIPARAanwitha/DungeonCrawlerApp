@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="36">
+ <tileset firstgid="1" source="tiles/Grass.tsx"/>
+ <tileset firstgid="81" source="tiles/Fences.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+1,12,13,1,1,12,13,1,1,2,
+11,12,12,13,11,12,5,1,11,12,
+12,13,12,12,13,1,15,11,1,2,
+12,13,5,12,13,12,13,4,5,12,
+1,2,15,16,1,12,13,14,15,2,
+11,12,13,12,13,1,12,13,11,12,
+3,12,1,2,3,11,1,2,4,5,
+13,1,2,12,13,1,2,1,14,15,
+2,4,12,13,1,2,4,11,12,2,
+2,14,15,12,13,13,1,2,11,12
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 2" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+94,95,95,95,95,84,0,0,0,0,
+0,0,0,0,0,85,0,0,0,0,
+0,0,0,0,0,85,0,0,0,0,
+0,0,0,0,0,85,0,0,0,0,
+0,0,0,0,0,85,0,0,0,0,
+0,0,0,0,0,89,93,93,93,93,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="collision">
+  <object id="6" x="0.25" y="15.5" width="95.5" height="16.25"/>
+  <object id="7" x="79.75" y="32" width="15.5" height="77.75"/>
+  <object id="8" x="79.75" y="96.25" width="80" height="14.75"/>
+  <object id="31" x="0" y="32.125" width="15.5" height="127.75"/>
+  <object id="32" x="16" y="144.375" width="144" height="15.25"/>
+  <object id="33" x="144.5" y="111.375" width="15.5" height="32.5"/>
+  <object id="34" x="144.5" y="0.625" width="15.5" height="95.75"/>
+  <object id="35" x="0.5" y="0.125" width="143.75" height="15.5"/>
+ </objectgroup>
+ <objectgroup id="5" name="NextRoomLayer"/>
+</map>

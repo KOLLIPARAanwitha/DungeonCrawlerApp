@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop">
+
+    <TextView
+        android:id="@+id/playerHealthView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player Health:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/playerNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/difficultyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Difficulty:"
+        tools:layout_editor_absoluteX="559dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/roomTwoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do It"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <ImageView
+        android:id="@+id/playerImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/lime_sprite"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        tools:layout_editor_absoluteX="556dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="-10dp"
+        app:srcCompat="@drawable/room_one"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

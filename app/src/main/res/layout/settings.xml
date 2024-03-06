@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2b676">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+        <EditText
+            android:id="@+id/playerNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="13"
+            android:fontFamily="@font/courier_prime"
+            android:hint="Enter Character Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="#323232"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="190dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="10"
+            android:layout_gravity="center">
+                <RadioGroup
+                    android:id="@+id/spriteSelector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/charSprite1Radio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/courier_prime"
+                        android:text="Cherry Trunks" />
+
+                    <RadioButton
+                        android:id="@+id/charSprite2Radio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/courier_prime"
+                        android:text="Lime Trunks" />
+
+                    <RadioButton
+                        android:id="@+id/charSprite3Radio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/courier_prime"
+                        android:text="Purple Trunks" />
+
+                </RadioGroup>
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/difficultyGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checkedButton="@id/difficultyMed"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/courier_prime"
+                android:text="Difficulty:"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/difficultyEasy"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/courier_prime"
+                android:text="Easy" />
+
+            <RadioButton
+                android:id="@+id/difficultyMed"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/courier_prime"
+                android:text="Regular" />
+
+            <RadioButton
+                android:id="@+id/difficultyHard"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/courier_prime"
+                android:text="Hard" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="419dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/sprite1View"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/red_sprite"
+                android:text="Cherry Trunks" />
+
+            <ImageButton
+                android:id="@+id/sprite2View"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lime_sprite" />
+
+            <ImageButton
+                android:id="@+id/sprite3View"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/purple_sprite" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Start..." />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

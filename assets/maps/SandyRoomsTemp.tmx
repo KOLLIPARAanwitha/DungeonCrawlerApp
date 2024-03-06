@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="32">
+ <tileset firstgid="1" source="tiles/sandTiles.tsx"/>
+ <layer id="1" name="RoomOneLayout" width="10" height="10" visible="1">
+  <data encoding="csv">
+3,3,3,3,3,3,3,3,3,3,
+3,1,1,1,1,1,1,1,1,3,
+3,1,1,1,1,1,1,1,1,3,
+21,1,1,1,1,1,1,1,1,3,
+5,1,1,1,1,1,1,1,1,3,
+21,1,1,1,1,1,1,1,1,3,
+3,1,1,1,1,1,1,1,1,3,
+3,1,1,1,1,1,1,1,1,3,
+3,1,1,1,1,1,1,1,1,3,
+3,3,3,3,3,3,3,3,3,3
+</data>
+ </layer>
+ <objectgroup id="2" name="RoomOneCollisions" visible="1">
+  <object id="3" x="0" y="0" width="160" height="16"/>
+  <object id="5" x="0" y="16" width="16" height="32"/>
+  <object id="7" x="144" y="16" width="16" height="128"/>
+  <object id="9" x="0" y="144" width="160" height="16"/>
+  <object id="10" x="0" y="96" width="16" height="48"/>
+  <object id="27" x="0" y="48" width="1" height="48"/>
+ </objectgroup>
+ <objectgroup id="7" name="RoomOneExits" visible="1">
+  <object id="28" x="1" y="48" width="1" height="48"/>
+ </objectgroup>
+ <layer id="3" name="RoomTwoLayout" width="10" height="10" visible="1">
+  <data encoding="csv">
+19,6,6,6,18,18,18,19,19,19,
+19,18,18,18,18,18,18,19,19,19,
+19,18,18,18,18,18,18,19,19,19,
+19,18,18,18,18,18,18,18,18,6,
+19,18,18,18,18,18,18,18,18,6,
+19,18,18,18,18,18,18,18,18,6,
+19,19,19,19,19,18,18,18,18,18,
+19,19,4,4,19,18,18,18,18,18,
+4,4,4,4,19,18,18,18,18,18,
+4,4,4,4,19,19,19,19,19,19
+</data>
+ </layer>
+ <objectgroup id="4" name="RoomTwoCollisions" visible="1">
+  <object id="12" x="112" y="0" width="48" height="48"/>
+  <object id="13" x="0" y="96" width="80" height="64"/>
+  <object id="14" x="0" y="0" width="16" height="96"/>
+  <object id="16" x="80" y="144" width="80" height="16"/>
+  <object id="24" x="16" y="0" width="96" height="1"/>
+  <object id="25" x="159" y="48" width="1" height="96"/>
+ </objectgroup>
+ <objectgroup id="8" name="RoomTwoExits" visible="1">
+  <object id="29" x="158" y="48" width="1" height="48"/>
+  <object id="30" x="16" y="1" width="48" height="1"/>
+ </objectgroup>
+ <layer id="5" name="RoomThreeLayout" width="10" height="10">
+  <data encoding="csv">
+3,3,3,3,3,3,5,5,5,3,
+3,3,3,3,3,3,17,17,17,3,
+3,3,3,3,3,3,17,17,17,3,
+3,3,3,3,3,3,17,17,17,3,
+3,3,3,3,3,3,17,17,17,3,
+3,3,3,3,3,3,17,17,17,3,
+3,17,17,17,17,17,17,17,17,3,
+3,17,17,17,17,17,17,17,17,3,
+3,17,17,17,17,17,17,17,17,3,
+3,5,5,5,17,17,17,17,17,3
+</data>
+ </layer>
+ <objectgroup id="6" name="RoomThreeCollisions">
+  <object id="17" x="0" y="0" width="96" height="96"/>
+  <object id="18" x="144" y="0" width="16" height="160"/>
+  <object id="19" x="0" y="96" width="16" height="64"/>
+  <object id="21" x="96" y="0" width="48" height="1"/>
+  <object id="23" x="16" y="159" width="128" height="1"/>
+ </objectgroup>
+ <objectgroup id="9" name="RoomThreeExits">
+  <object id="31" x="16" y="158" width="48" height="1"/>
+ </objectgroup>
+</map>
